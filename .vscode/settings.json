@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "explorer.autoReveal": false,
+  "cSpell.words": ["Cacheable", "deauthorize", "Formik", "Luxon", "Setlist", "setlists", "signup", "upsert"],
+  "java.configuration.updateBuildConfiguration": "disabled"
+}

@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@bandfix/common": ["libs/common/src/index.ts"],
+      "@bandfix/apps/bandfix/_sids": ["apps/bandfix/src/_sids/index.ts"],
+      "@bandfix/apps/bandfix/assets/*": ["apps/bandfix/src/assets/*"],
+      "@bandfix/apps/bandfix/ui": ["apps/bandfix/src/ui/index.ts"],
+      "@bandfix/apps/bandfix/state": ["apps/bandfix/src/state/index.ts"],
+      "@bandfix/apps/bandfix/business": ["apps/bandfix/src/business/index.ts"],
+      "@bandfix/apps/bandfix/cross-cutting": ["apps/bandfix/src/cross-cutting/index.ts"],
+      "@bandfix/apps/bandfix/data": ["apps/bandfix/src/data/index.ts"],
+      "@bandfix/apps/bandfix/environments": ["apps/bandfix/src/environments/index.ts"]
+    },
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "tmp"]
+}
